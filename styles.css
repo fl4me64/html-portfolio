@@ -3,16 +3,43 @@
  text-align: center;
 }
 
+body {
+  margin: 0;
+}
+
 h1 {
  font-family: 'Great Vibes', cursive;
  font-size: 100px;
- color: #67C6E3;
+ color: #41C9E2;
 }
 
-#introDescription {
- color: #67C6E3;
+#intro {
+ color: #41C9E2;
 }
 
-body {
- background-color: #DFF5FF;
+.top {
+ background-color: #ACE2E1;
+ position: relative;
+ padding-top: 100px;
+}
+
+hr {
+  border: dotted #ACE2E1 5px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.middle {
+ background-color: #F7EEDD;
+ padding: 50px;
+}
+
+#boy {
+ border-radius: 50%;
+}
+
+.bottom {
+ background-color: #008DDA;
+ padding: 20px 0 20px;
 }
